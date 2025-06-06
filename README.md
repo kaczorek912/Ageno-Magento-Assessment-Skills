@@ -26,7 +26,6 @@ docker compose up -d
 ### Uruchomienie
 
 ```bash
-chmod +x setup.sh
 ./setup.sh
 ```
 ### Po zakończeniu możesz odwiedzić stronę pod adresem:
