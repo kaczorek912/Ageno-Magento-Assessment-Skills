@@ -31,7 +31,8 @@ docker compose up -d
 ### Po zakończeniu możesz odwiedzić stronę pod adresem:
 http://localhost:8081
 oraz panel administracyjny pod:
-http://localhost:8081/admin
+http://localhost:8081/admin 
+login: admin pass: Admin123!
 
 ### Wygląd modułu shipping price:
 
