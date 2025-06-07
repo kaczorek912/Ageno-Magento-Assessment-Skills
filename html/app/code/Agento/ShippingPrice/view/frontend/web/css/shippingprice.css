@@ -1,0 +1,15 @@
+.shipping-price {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    color: #222;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.shipping-price i {
+    font-size: 1.4rem;
+    color: #555;
+}

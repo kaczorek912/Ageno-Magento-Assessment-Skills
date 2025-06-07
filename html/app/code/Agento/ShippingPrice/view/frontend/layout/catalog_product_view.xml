@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="Agento_ShippingPrice::css/shipping_price.css"/>
+        <css src="Agento_ShippingPrice::css/font-awesome.min.css"/>
+    </head>
+    <body>
+        <referenceContainer name="product.info.price">
+            <block class="Agento\ShippingPrice\Block\ShippingPrice" name="shipping_price" template="Agento_ShippingPrice::shipping_price.phtml" after="-"/>
+        </referenceContainer>
+    </body>
+</page>
