@@ -8,8 +8,6 @@ Projekt bazuje na najnowszej wersji Magento Open Source z zainstalowanymi danymi
 
 W projekcie znajduje się skrypt `setup.sh`, który automatycznie:
 
-- Sprawdza, czy Magento jest już zainstalowane.
-- Jeśli nie, instaluje Magento z podstawową konfiguracją (baza danych, konto administratora, lokalizacja, język itp.).
 - Uruchamia migracje, kompilację DI oraz generuje statyczne pliki.
 - Wyłącza podpisywanie statycznych plików (przydatne podczas developmentu).
 - Wyłącza moduły Two-Factor Authentication dla środowiska developerskiego.
@@ -37,3 +35,5 @@ login: admin pass: Admin123!
 ### Wygląd modułu shipping price:
 
 ![Screenshot](images/sample_product.png)
+Autor: Mateusz Kaczorowski
+mateuszkaczorowski3@gmial.com
