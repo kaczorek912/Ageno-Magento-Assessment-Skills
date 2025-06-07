@@ -36,4 +36,4 @@ login: admin pass: Admin123!
 
 ![Screenshot](images/sample_product.png)
 Autor: Mateusz Kaczorowski
-mateuszkaczorowski3@gmial.com
+mateuszkaczorowski3@gmail.com
