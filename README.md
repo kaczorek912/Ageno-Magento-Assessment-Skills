@@ -35,4 +35,4 @@ http://localhost:8081/admin
 
 ### Wygląd modułu shipping price:
 
-![Screenshot](images/product_sample.png)
+![Screenshot](images/sample_product.png)
