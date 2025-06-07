@@ -3,12 +3,7 @@
 chmod +x setup.sh
 set -e
 
-echo "Checking if Magento is already installed..."
-
-TABLE_COUNT=$(docker compose exec php mysql -u magento -pmagento -h db -D magento -se "SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = 'magento' AND table_name = 'store_website';")
-
-if [ "$TABLE_COUNT" -eq 0 ]; then
-  echo "Magento not installed, running setup:install..."
+  echo "Running setup:install..."
   docker compose exec php composer install
   docker compose exec php bin/magento setup:install \
     --base-url=http://localhost:8081 \
@@ -28,9 +23,6 @@ if [ "$TABLE_COUNT" -eq 0 ]; then
     --search-engine=elasticsearch8 \
     --elasticsearch-host=elasticsearch \
     --elasticsearch-port=9200
-else
-  echo "Magento is already installed. Skipping setup:install."
-fi
 
 echo "Running setup:upgrade, di:compile and static content deploy..."
 
