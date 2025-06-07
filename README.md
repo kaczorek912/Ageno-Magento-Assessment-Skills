@@ -32,3 +32,7 @@ docker compose up -d
 http://localhost:8081
 oraz panel administracyjny pod:
 http://localhost:8081/admin
+
+### Wygląd modułu shipping price:
+
+![Screenshot](images/product_sample.png)
