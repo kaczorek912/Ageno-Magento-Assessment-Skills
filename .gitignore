@@ -6,3 +6,5 @@
 /.idea/
 /.vscode/
 /*.log
+html/app/etc/env.php
+
