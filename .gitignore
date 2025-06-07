@@ -1,0 +1,8 @@
+/vendor/
+/generated/
+/var/
+/pub/static/
+!.htaccess
+/.idea/
+/.vscode/
+/*.log
