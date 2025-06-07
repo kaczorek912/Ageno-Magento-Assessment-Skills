@@ -16,7 +16,7 @@ W projekcie znajduje się skrypt `setup.sh`, który automatycznie:
 - Czyści cache i ustawia odpowiednie uprawnienia do plików i katalogów.
 
 ## Uruchamianie środowiska Docker
-
+Podczas instalacji skrypt poprosi o dane do logowania do repo magento, należy je wygenerować tu: https://commercemarketplace.adobe.com/customer/accessKeys/
 Przed uruchomieniem skryptu `setup.sh` upewnij się, że środowisko Docker jest uruchomione. W terminalu, w katalogu projektu, wykonaj:
 
 ```bash
